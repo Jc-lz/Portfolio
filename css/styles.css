@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: #cccccc;
+}
+
+header .navbar {
+  background: royalblue;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .navbar a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+#welcome-section {
+  background: #312c2c;
+  width: 100%;
+  height: 100vh;
+}
+#welcome-section h1 {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 200px;
+  color: white;
+}
+#welcome-section p {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+main section {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main section .project-tile {
+  margin: 20px;
+  width: 40%;
+  height: auto;
+  box-shadow: 0px 0px 15px 1px black;
+  background: ghostwhite;
+  text-align: center;
+}
+main section .project-tile img {
+  width: 100%;
+  padding: 10px;
+}
+main section .project-tile p {
+  text-align: center;
+}
+main section .project-tile a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 30px;
+  background: #312c2c;
+}
+footer .phrase {
+  padding: 20px;
+}
+footer .phrase h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+footer .redes {
+  display: flex;
+  justify-content: center;
+}
+footer .redes a {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  width: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .project-tile {
+    width: 100%;
+  }
+}
